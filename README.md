@@ -25,4 +25,12 @@ Slots are used to fetch the parameters required by the intent to fulfill the use
  
  In this demo I used OpenWeatherMap's API for weather data. Since only Lattitude and Longitude values are supported for forecasting weather(free members), I have used lattitude and longitude values as slots in lex for forecasting weather, While City name or location name is used for currend  weather informations.
  
+ I used aws' built-in confirmation prompt features. Single "Lambda function" source code is used for fulfillment response plus initialization and validation of one of the intents.
+ 
+ 
+ For slots: city is defined with built-in 'AMAZON.AT_CITIES' slot type to match the city the user is asking about, and both lat and long are defined with built-in 'AMAZON.NUMBER'.
+ 
+ 
+ 
+ 
  

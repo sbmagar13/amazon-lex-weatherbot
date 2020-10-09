@@ -7,7 +7,7 @@ import logging
 logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
-OWM_API_KEY = "d9c63d9f66edfc2c2b3a87d5abf9f64e"
+OWM_API_KEY = "*************************"
 
 
 def build_response(message):

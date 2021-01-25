@@ -1,5 +1,5 @@
 # amazon-lex-weatherbot
-""" An weather forecast and information chatbot, Created with AWS Lex and AWS lambda"""
+""" A weather forecast and information chatbot, Created with AWS Lex and AWS lambda"""
 
 ## **_`About Lex BOT`_**
 
